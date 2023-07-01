@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class palindrome {
+public class palindrome_reveresString {
 
     public static void main(String[] args) {
 
@@ -12,7 +12,9 @@ public class palindrome {
 
         for (int i=length-1; i>=0; i--) {
             reverse = reverse + orignal.charAt(i);
+
         }
+        System.out.println("the reverse string is : "+reverse);
             if (orignal.equals(reverse)){
                 System.out.println(" string or number is palindrome ");
             }
