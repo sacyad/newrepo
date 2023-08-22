@@ -1,7 +1,7 @@
 public class max_Min_Array {
 
 
-    static int[] arr = {12, 45, 33, 789, 23, 89};
+    static int[] arr = {121, 45, 33, 789, 23, 89};
 
     public static int maxlength() {
 
